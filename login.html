@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be An Influencer</title>
+
+
+
+
+
+    <link rel="stylesheet" href="/styles.css">
+    
+    
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
+
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+
+
+
+    <header class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="/assetsi/final logo IM.png" width="125px" alt="" srcset="">
+            </div>
+            <nav >
+                <ul id="MenuItems">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="/influencers.html">Find Influencers</a></li>
+                    <li><a href="/login.html">Be Listed</a></li>
+                    <li><a href="">Contact</a></li>
+                   
+    
+                </ul>
+            </nav>
+            <img src="/assets/shopping-bag.png" alt="cart png" width="30px" height="30px" srcset="">
+            <img src="/assets/icons8-menu-100.png" alt="menu png" srcset="" class="menu-icon" onclick="menutoggle()">
+        </div>
+        </div>
+        
+    
+       
+    
+        <div class="row">
+            <div class="col-2">
+                <h1>Be Part Of Our<br> Community!</h1>
+                <p>Discover qualified tutors in major cities like Johannesburg, Cape Town, Durban, Pretoria, and more. Our verified, graduate-level tutors are here to help you excel in any subject, from primary school to university.</p>
+                <a href="" class="button" &#8594;>Explore Now!</a>
+            </div>
+            <div class="col-2">
+                <img src="/assets/online-courses-tutorials.png" alt="" srcset="">
+    
+            </div>
+        </div>
+        </div>
+        </header> 
+
+    <!------------- account for tutors -------->
+   
+ 
+
+            <div class="account-page">
+                <div class="accountcontainer">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="./assets/Login-amico.png" alt="" srcset="" width="100%">
+                        </div>
+                        <div class="col-2">
+                            <div class="formcontainer">
+                                <div class="form-btn">
+                                    <span onclick="login()">Login</span>
+                                    <span onclick="register()">Register</span>
+                                    <hr id="indicator">
+                                </div>
+                                <form action="" class="signin-form" id="loginform">
+                                   
+                                        <div class="input-fields">
+                                            
+                                           
+                        
+                                            
+                                            
+                                            <input type="text" name="" id="" placeholder="Email Address" required >
+                                        </div>
+                                        
+                                        <div class="input-fields">
+                                           
+                                            <input type="password" name="" id="" placeholder="Enter Password" required>
+                                           
+                                        </div>
+                        
+                                       
+                                        
+                        
+                        
+                                       <button class="btnsolid">Login</button> <br>
+                            
+                                        <a href="#">Forgot Password?</a>
+                                     
+                                   </form>
+
+                                   <form action="https://formsubmit.co/mtintsilanamxolisi@email.com" method="post" class="signup-form" id="regform">
+                                        
+
+                                   
+                                        <div class="input-fields">
+                                            
+                                            <input type="text" name="email address" id="" placeholder="Email Address">
+                                        </div>
+                                        <div class="input-fields">
+                                          
+                                            <input type="text" name="fname" id="" placeholder="Name" required>
+                                        </div>
+                                        <div class="input-fields">
+                                           
+                                            <input type="text" name="Surname" id="" placeholder="Surname" required>
+                                        </div>
+                                        <div class="input-fields">
+                                          
+                                            <input type="password" name="password" id="" placeholder="Enter Password" required>
+                                           
+                                        </div>
+                        
+                                        <div class="input-fields">
+                                        
+                                            <input type="password" name="password" id="" placeholder="Confirm Password" required>
+                                           
+                                        </div>
+                        
+                                        <div class="input-fields">
+                                          
+                                            <input type="text" name="City" id="city" placeholder="Enter Your City" required>
+                                           
+                                        </div>
+                                        
+                                        <fieldset>
+                                            <legend>Choose your  field</legend>
+                                            <p>you can select multiple levels</p>
+
+                                            <div>
+                                                <input type="checkbox" id="ali" name="lifestyle" value="ali" />
+                                                <label for="ALI">Animal Lifetsyle Influencer</label>
+                                              </div>
+
+
+                                            <div>
+                                                <input type="checkbox" id="ami" name="auto" value="ami" />
+                                                <label for="ami">Automobile Influencer</label>
+                                              </div>
+
+                                              <div>
+                                                <input type="checkbox" id="ecd" name="beauty" value="ecd" />
+                                                <label for="ecd">Beauty Influencer</label>
+                                              </div>
+                                            <div>
+                                                <input type="checkbox" id="ecd" name="creator" value="ecd" />
+                                                <label for="ecd">Content Creator</label>
+                                              </div>
+                                              <div>
+                                                <input type="checkbox" id="edu" name="education" value="edu" />
+                                                <label for="ecd">Educational Influencer</label>
+                                              </div>
+                                              <div>
+                                                <input type="checkbox" id="family" name="family" value="family" />
+                                                <label for="family">Family Influencer</label>
+                                              </div>
+                                            <div>
+                                              <input type="checkbox" id="food" name="food" value="food" />
+                                              <label for="ecd">Food Influencer</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="ecd" name="fashion" value="ecd" />
+                                                <label for="ecd">Fashion Influencer</label>
+                                              </div>
+                                              <div>
+                                                <input type="checkbox" id="ecd" name="gaming" value="ecd" />
+                                                <label for="ecd">Gaming Influencer</label>
+                                              </div>
+                                            <div>
+                                                <input type="checkbox" id="health" name="health" value="health" />
+                                                <label for="health">Health & Wellness</label>
+                                              </div>
+                                              <div>
+                                                <input type="checkbox" id="" name="lifestyle" value="lifestyle" />
+                                                <label for="lifestyle">Lifestyle Influencer</label>
+                                              </div>
+                                            <div>
+                                              <input type="checkbox" id="entertainment" name="entertainment" value="entertainment" />
+                                              <label for="entertain">Entertainment Influencer</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="sports" name="sports" value="sports" />
+                                                <label for="ecd">Sports Influencer</label>
+                                              </div>
+
+                                            <div>
+                                                <input type="checkbox" id="travel" name="travel" value="travel" />
+                                                <label for="travel">Travel Influencer</label>
+                                              </div>
+                                          </fieldset>
+                        
+                                          
+                                      
+                                        
+                        
+                                     
+                                        <div class="qualifications">
+                                            <p>Upload your social media screenshots</p>
+                                            <input type="file" name="documents" id="" placeholder="Upload social media data" required>
+                                        </div>
+                                        <div class="qualifications">
+                                            <p>Upload your profile picture</p>
+                                            <input type="file" name="profile" id="" placeholder="Upload Profile" required>
+                                        </div>
+
+                                        <textarea name="bio" id="" placeholder="write your profile bio"></textarea>
+                        
+                                        
+                                       
+                                       
+                                        <button class="btnsolid">Submit</button>
+                            
+                                        
+                        
+                                   </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    <!--------------FOOTER---------------->
+
+ <!--------------js script---------------->
+
+
+
+ 
+ <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+ <script>
+
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+
+             {
+            MenuItems.style.maxHeight = "200px";
+            }
+
+        else {
+            MenuItems.style.maxHeight = "0px";
+        } 
+    }
+
+</script>
+
+ <!--------------js toggle script---------------->
+
+ <script>
+    var LoginForm = document.getElementById("loginform");
+    var RegForm = document.getElementById("regform");
+    var Indicator = document.getElementById("indicator");
+
+
+    function register() {
+
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+
+    }
+
+    function login() {
+
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+
+
+}
+
+
+
+ </script>
+
+</body>
+
+
+</html>
